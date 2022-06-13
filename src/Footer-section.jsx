@@ -1,6 +1,6 @@
 import React from "react";
-import footerimage from './images/footer-image.png';
-import footerlogologo from './images/logo.png';
+// import footerimage from './images/footer-image.png';
+// import footerlogologo from './images/logo.png';
 
 function Footersection(){
     return(

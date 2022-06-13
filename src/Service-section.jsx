@@ -5,7 +5,7 @@ function Servicesection(){
         <>
             <div className="service-section">
                 <div className="container">
-                <div className="servicewrapper d-flex flex-column justify-content-end align-items-end">
+                <div className="servicewrapper d-flex flex-column justify-content-end">
                     <h2 className="pb-4">ABOUT US</h2>
                     <p>
                     We are a unique marketing consultancy firm with a purpose to deliver personalised marketing solutions to asian brands across the world. We bridge the gap between Asian and Western markets with our in-depth understanding of various cultures, marketing trends, global consumers and industrial transformations.</p>

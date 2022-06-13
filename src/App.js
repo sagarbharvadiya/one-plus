@@ -1,8 +1,8 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 
 import './App.css';
-import Topheadar from './Menu';
+// import Topheadar from './Menu';
 import AboutUSsection from './aboutUS-section';
 import Servicesection from './Service-section';
 import Contenarsection from './Contenar-section';
@@ -11,6 +11,7 @@ import Blogsection from './Blog-section';
 import Promosection from './Promo-section';
 // import Productionsection from './Production-section';
 import Footersection from './Footer-section';
+import Topheadar from './Menu';
 // import Mydata from './Mydata'; 
 
 function App() {
