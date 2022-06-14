@@ -3,7 +3,7 @@ import React from "react";
 function WhatMakeUs(){
     return(
         <>
-            <div className="blog-section">
+            <div className="blog-section" id="whatmakeUs">
                 <div className="container">
                 <div className="blogweapper d-flex flex-column justify-content-start align-items-start">
                     <h2 className="pb-4">What makes us different</h2>

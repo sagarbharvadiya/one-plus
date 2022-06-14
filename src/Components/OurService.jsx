@@ -3,7 +3,7 @@ import React from "react";
 function OurService(){
     return(
         <>
-            <div className="gallerysection">
+            <div className="gallerysection" id="service">
                 <div className="container">
                 <div className="gallerywrapper d-flex flex-column justify-content-end">
                     <h2 className="pb-4">OUR SERVICES</h2>

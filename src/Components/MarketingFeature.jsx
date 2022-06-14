@@ -3,7 +3,7 @@ import React from "react";
 function MarketingFeature(){
     return(
         <>
-           <div className="aboutUS-section">
+           <div className="aboutUS-section" id="marketing">
             <div className="container">
                 <div className="aboutUSwrapper">
                     <h2 className="d-flex ">Unique Marketing Solution For Asian Brands</h2>

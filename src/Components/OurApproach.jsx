@@ -5,7 +5,7 @@ import React from "react";
 function OurApproach(){
     return(
         <>  
-           <div className="contenar-section">
+           <div className="contenar-section" id="apporoach">
               <div className="contenarwrapper d-flex flex-column justify-content-start align-items-start">
                 <h2 className="pb-4">Our Approach</h2>
                 

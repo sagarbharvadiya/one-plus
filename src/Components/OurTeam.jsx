@@ -8,10 +8,9 @@ import img3 from "../images/image3.jpg";
 function OurTeam(){
     return(
         <>
-            <div className="promosection">
+            <div className="promosection" id="team">
                 <div className="container">
                 <div class="section-title"><h2>OUR TEAM</h2></div>
-
                <div id="row">
                 <div className="team">
                     <div className="thumbnail">
