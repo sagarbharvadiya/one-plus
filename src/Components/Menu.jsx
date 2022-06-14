@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 // import{ link } from "react-router-dom"
 import logo from "../images/logo.png";
@@ -38,22 +37,22 @@ window.addEventListener('scroll',changeBackground);
               </a>
             </li>
             <li className="list-group list-group-flush">
-              <a href="#About" className="text-decoration-none">
+              <a href="#aboutus" className="text-decoration-none">
                 About
               </a>
             </li>
             <li className="list-group list-group-flush">
-              <a href="#Services" className="text-decoration-none">
+              <a href="#service" className="text-decoration-none">
                 Services
               </a>
             </li>
             <li className="list-group list-group-flush">
-              <a href="#Team" className="text-decoration-none">
+              <a href="#team" className="text-decoration-none">
                 Team
               </a>
             </li>
             <li className="list-group list-group-flush">
-              <a href="#Contact" className="text-decoration-none">
+              <a href="#contact" className="text-decoration-none">
                 Contact
               </a>
             </li>
