@@ -3,23 +3,16 @@ import React from "react";
 function WhatMakeUs(){
     return(
         <>
-            <div className="blog-section">
+        {/* SECOND SCROLL */}
+            <div className="what-Make-Us-section">
+            
                 <div className="container">
-                <div className="blogweapper d-flex flex-column justify-content-start align-items-start">
-                    <h2 className="pb-4">What makes us different</h2>
-                    <p>Our customers come back to us again
-                       and again because we genuinely care about your business.
-                       We take the time to understand your
-                       communication objectives and target audience,
-                       so we can deliver a production which reflects your
-                       brand values and the story you want to tell. We are 
-                       more than a creative agency, we are your media 
-                       partner.
+                <div className="what-Make-Us-whapper d-flex flex-column justify-content-start align-items-start">
+                   
+                    <p>We are a cross-border marketing consultancy firm that caters to Asian brands across the world. Our purpose is to bridge the gap between Asian and Western markets. To achieve this, we rely on in-depth understanding of various cultures, global consumer trends and industrial transformations.
                     </p>
-                    <div className="blog-btn">
-                        <a href="#aboutus" className="arrow text-danger"><i class="fa-solid fa-arrow-right-long"></i></a>
-                        <a href="#aboutus" className="submit-btn text-decoration-none d-flex align-items-center text-danger">Learn about our services</a>
-                    </div>
+                    <p>Our aim is to connect your business to the world with marketing solutions that are <b> On-Time. On-Budget. On-Point.</b></p>
+                    
                 </div>
                 </div>
             </div>

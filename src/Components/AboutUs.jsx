@@ -3,14 +3,21 @@ import React from "react";
 function AboutUs(){
     return(
         <>
-            <div className="service-section" id="aboutus">
+        {/* THIRD SCROLL */}
+            <div className="About-section" id="about-us">
+              
                 <div className="container">
-                <div className="servicewrapper d-flex flex-column justify-content-end">
-                    <h2 className="pb-4">ABOUT US</h2>
-                    <p>
-                    We are a unique marketing consultancy firm with a purpose to deliver personalised marketing solutions to asian brands across the world. We bridge the gap between Asian and Western markets with our in-depth understanding of various cultures, marketing trends, global consumers and industrial transformations.</p>
-                    <p>Our aim is to creates ideas that influence attitudes, shift behaviour and amplify the brand voice consistently across all channels. We deliver integrated consultancy across strategy, creative, media and innovation in one agency, under our collaborative leadership.</p>
-                    <p>Connecting your company with the world with marketing solutions that are On-Time. On-Budget. On-Point.</p>
+                <div className="About-wrapper d-flex flex-column justify-content-end">
+                
+                    <h2 className="pb-4">A multi-cultural team that designs unique solutions for you</h2>
+                    
+                  <div>
+                    <div>
+                        <h1>Global Experience: </h1><p>We are a team of consultants with an immersive experience in global businesses. We work with you as partners; to deliver adaptive, effective and result-driven solutions.</p>
+                        <h1>Customised Packages:  </h1><p>To match your requirements and budgets, we deliver personalised solutions that are objective-driven and ROI-focussed with a sharp attention to detail. </p>
+                        <h1>Cultural Integration:  </h1><p>The Internet has made the world flat. We specialise in creating strong brand identities that resonate with audiences across geographies, turning customers into loyalists. </p>
+                    </div>
+                  </div>
                 </div>
                 </div>
             </div>

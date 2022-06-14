@@ -5,9 +5,25 @@ import logo from "../images/logo.png";
 
 function Menu() {
   const [isMobile, setIsMobile] = useState(false);
+  const[ navbar,setNavbar] = useState(false);
+
+
+
+const changeBackground = () =>{
+  if(window.scrollY >=40){
+    setNavbar(true)
+  }
+  else{
+    setNavbar(false)
+  }
+}
+window.addEventListener('scroll',changeBackground);
+
+
   return (
     <>
-      <div className="top-header-section d-flex justify-content-between">
+    <div className ={ navbar ? 'top-header-section active ': 'top-header-section '}>
+      <div className="d-flex justify-content-between">
         <div className="logo">
           <img src={logo} />
         </div>
@@ -54,6 +70,7 @@ function Menu() {
           )}
         </button>
       </div>
+      </div> 
     </>
   );
 }
