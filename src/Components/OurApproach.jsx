@@ -2,7 +2,7 @@ import React from "react";
 // import Collapsible from 'react-collapsible';
 // import { Parallax } from "react-scroll-parallax";
 
-function Contenarsection(){
+function OurApproach(){
     return(
         <>  
            <div className="contenar-section">
@@ -34,4 +34,4 @@ function Contenarsection(){
     )
 };
 
-export default Contenarsection;
+export default OurApproach;

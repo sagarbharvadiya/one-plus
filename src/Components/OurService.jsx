@@ -1,6 +1,6 @@
 import React from "react";
 
-function Gallerysection(){
+function OurService(){
     return(
         <>
             <div className="gallerysection">
@@ -33,4 +33,4 @@ function Gallerysection(){
     )
 };
 
-export default Gallerysection;
+export default OurService;

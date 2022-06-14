@@ -1,9 +1,9 @@
 import React from "react";
 
-function Servicesection(){
+function AboutUs(){
     return(
         <>
-            <div className="service-section">
+            <div className="service-section" id="aboutus">
                 <div className="container">
                 <div className="servicewrapper d-flex flex-column justify-content-end">
                     <h2 className="pb-4">ABOUT US</h2>
@@ -18,4 +18,4 @@ function Servicesection(){
     )
 };
 
-export default Servicesection;
+export default AboutUs;

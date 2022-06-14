@@ -1,6 +1,6 @@
 import React from "react";
 
-function Blogsection(){
+function WhatMakeUs(){
     return(
         <>
             <div className="blog-section">
@@ -17,8 +17,8 @@ function Blogsection(){
                        partner.
                     </p>
                     <div className="blog-btn">
-                        <a href="#" className="arrow text-danger"><i class="fa-solid fa-arrow-right-long"></i></a>
-                        <a href="#" className="submit-btn text-decoration-none d-flex align-items-center text-danger">Learn about our services</a>
+                        <a href="#aboutus" className="arrow text-danger"><i class="fa-solid fa-arrow-right-long"></i></a>
+                        <a href="#aboutus" className="submit-btn text-decoration-none d-flex align-items-center text-danger">Learn about our services</a>
                     </div>
                 </div>
                 </div>
@@ -27,4 +27,4 @@ function Blogsection(){
     )
 };
 
-export default Blogsection;
+export default WhatMakeUs;

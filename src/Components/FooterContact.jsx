@@ -2,7 +2,7 @@ import React from "react";
 // import footerimage from './images/footer-image.png';
 // import footerlogologo from './images/logo.png';
 
-function Footersection(){
+function FooterContact(){
     return(
         <>
           <div id="contact">
@@ -52,4 +52,4 @@ function Footersection(){
     )
 };
 
-export default Footersection;
+export default FooterContact;

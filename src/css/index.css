@@ -55,7 +55,7 @@ code {
 }
 
 .aboutUS-section{
-  background: url(../src/images/banner-image.jpg) no-repeat 0 0;
+  background: url(../images/1.png) no-repeat 0 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -91,7 +91,7 @@ margin-top: 24vh;
 
 }
 .service-section{
-  background: url(../src/images/banner-image-2.png) no-repeat 0 0;
+  background: url(../images/3.png) no-repeat 0 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: inherit;
@@ -110,7 +110,7 @@ margin-top: 24vh;
   font-size: 20px;
 }
 .contenar-section{
-  background: url(../src/images/banner-background1.jpg) no-repeat 0 0;
+  background: url(../images/7.png) no-repeat 0 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: inherit;
@@ -140,7 +140,7 @@ margin-top: 24vh;
   color: white;
 }
 .gallerysection{
-  background: url(../src/images/banner-image-3.png) no-repeat 0 0;
+  background: url(../images/5.png) no-repeat 0 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: inherit;
@@ -174,7 +174,7 @@ margin-top: 24vh;
   font-size: 20px;
 }
 .blog-section{
-  background: url(../src/images/banner-image-4.png) no-repeat 0 0;
+  background: url(../images/6.png) no-repeat 0 0;
   
   background-size: cover;
   background-attachment: fixed;
@@ -201,6 +201,10 @@ margin-top: 24vh;
 }
 .promosection{
   padding: 100px 0px;
+  background: url(../images/4.png) no-repeat 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: inherit;
 }
 .promowrapper img{
   margin: 60px 0px;

@@ -1,11 +1,11 @@
 import React from "react";
-import img1 from "./images/image1.jpg";
-import img2 from "./images/image2.jpg";
-import img3 from "./images/image3.jpg";
+import img1 from "../images/image1.jpg";
+import img2 from "../images/image2.jpg";
+import img3 from "../images/image3.jpg";
 
 
 
-function Promosection(){
+function OurTeam(){
     return(
         <>
             <div className="promosection">
@@ -54,4 +54,4 @@ function Promosection(){
     )
 };
 
-export default Promosection;
+export default OurTeam;

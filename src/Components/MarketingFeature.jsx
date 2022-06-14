@@ -1,6 +1,6 @@
 import React from "react";
 
-function AboutUSsection(){
+function MarketingFeature(){
     return(
         <>
            <div className="aboutUS-section">
@@ -17,4 +17,4 @@ function AboutUSsection(){
     )
 };
 
-export default AboutUSsection;
+export default MarketingFeature;
