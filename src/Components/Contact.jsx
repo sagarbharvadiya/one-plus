@@ -9,7 +9,7 @@ function Contact(){
                     <i class="fas fa-map-marker"></i>
                     <span>VISIT OUR OFFICE</span>
                      <p>
-                     AddressGresham House, 24 Holborn Viaduct, London, England, EC1A 2BN
+                     Gresham House, 24 Holborn Viaduct, London, England, EC1A 2BN
                     </p>
                     <a href=""><del>GET DIRECTION</del> </a>
                     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../images/3.png";
+import img1 from "../images/6.png";
 
 
 

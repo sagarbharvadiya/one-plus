@@ -494,8 +494,9 @@ h2 {
 }
 
 .Footer-section-img img {
-  max-width: 559px;
+     max-width: 571px;
   height: 498px;
+  margin-left: -13px;
 }
 
 
@@ -572,7 +573,15 @@ h2 {
   text-transform: uppercase;
   transition: all .5s linear;
 }
-
+form .btn-custom:hover{
+  background-color: #d9d9d9 !important;
+color: #d03434;
+}
+.sentMessage div{
+  font-size: 20px;
+    color: red;
+    margin-bottom: 10px;
+}
 #contact .form-flex {
   display: flex;
   justify-content: space-between;
