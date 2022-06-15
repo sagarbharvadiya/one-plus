@@ -7,8 +7,7 @@ import img3 from "../images/image4.png";
 function OurApproach(){
     return(
         <>  
-<<<<<<< HEAD
-        {/* FOURTH SCROLL */}
+        
            <div className="our-approach-main">
               <div className="our-approach-main-wrapper d-flex flex-column justify-content-start align-items-start">  
                 <div className="our-approach"> 
@@ -31,15 +30,6 @@ function OurApproach(){
                    </div>
                    
                    
-=======
-           <div className="contenar-section" id="apporoach">
-              <div className="contenarwrapper d-flex flex-column justify-content-start align-items-start">
-                <h2 className="pb-4">Our Approach</h2>
-                
-                <div>
-                    <h4>Global Experience</h4>
-                  <p>We are a team of consultants with an immersive experience in global businesses.Our vision is to work with our clients as partners; to deliver adaptive, effective and result driven solutions in response to the VUCA world.</p>
->>>>>>> 2d31c43c1147049d519767d7b92f14013f7c003a
                 </div>
                    <div className="our-approach-bottom">
                     <div className="our-approach-box">

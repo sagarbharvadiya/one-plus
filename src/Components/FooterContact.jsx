@@ -1,18 +1,27 @@
-import React from "react";
+import  React from "react";
+import img1 from "../images/3.png";
+
 
 
 function FooterContact(){
     return(
         <>
-          <div id="contact">
+          <div id="contact" className="Footer-section">
             <div className="container">
-                <div className="section-title">
+                {/* <div className="section-title">
                     <h2>CONTACT US</h2>
                     <p>Ways to reach us</p>
-                </div>
-                <div className="form-flex">
+                </div> */}
+                <div className="form-flex Footer-section-forms">
+                    <div className="Footer-section-img">
+                        <img src="{img1}" alt="...."  className="img-footer"/>
+                    </div>
                     <div className="sentMessage">
+
                         <form name="sentMessage">
+                            <div>
+                            READY TO REQUEST A QUOTE?
+                            </div>
                             <div className="form-group d-flex gap-1">
                                 <input type="text" id="name" name="name" className="form-control" placeholder="Name" required />
                                 <p className="help-block text-danger"></p>
@@ -26,27 +35,11 @@ function FooterContact(){
                             <button type="submit" className="btn btn-custom btn-lg">Send Message</button>
                         </form>
                     </div>
-                    <div className=" contact-info">
-                      <div className="contact-item">
-                        <h3>Contact Info</h3>
-                        <p><span><i className="fas fa-map-marker"></i> Address</span>Gresham House, 24 Holborn Viaduct, London, England, EC1A 2BN</p>
-                      </div>
-                      <div className="contact-item"><p><span><i className="fas fa-phone"></i> Phone</span> +1 123 456 1234</p></div>
-                      <div className="contact-item"><p><span><i className="fas fa-envelope"></i> Email</span> hello@oneplus.com</p></div>
-                    </div>
                 </div>
-                <div className="social">
-                <ul>
-                   <li><a href="fb.com"><i className="fab fa-facebook-f"></i></a></li>
-                   <li><a href="twitter.com"><i className="fab fa-twitter"></i></a></li>
-                    <li><a href="youtube.com"><i className="fab fa-youtube"></i></a></li>
-                </ul>
-                </div>
+                
             </div>
           </div>
-          <div className="copy-right">
-          <p> Copyright © 2022 OnePlus</p>
-          </div>
+          
         </>
     )
 };

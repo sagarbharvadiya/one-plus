@@ -8,6 +8,8 @@ import OurApproach from './Components/OurApproach';
 // import OurService from './Components/OurService';
 import OurTeam from './Components/OurTeam';
 import FooterContact from './Components/FooterContact';
+import Contact from './Components/Contact';
+import CopyRight from './Components/CopyRight';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
           {/* <OurService/> */}
           <OurTeam/>
           <FooterContact/> 
+          <Contact/>
+          <CopyRight/>
       </div>
     </>
   );
