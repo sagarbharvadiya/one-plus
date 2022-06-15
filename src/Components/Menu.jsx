@@ -32,12 +32,12 @@ window.addEventListener('scroll',changeBackground);
         >
           <ul className="menu nav-links d-flex flex-row align-items-center">
             <li className="list-group list-group-flush">
-              <a href="#Home" className="text-decoration-none">
+              <a href="index.html" className="text-decoration-none">
                 Home
               </a>
             </li>
             <li className="list-group list-group-flush  ">
-              <a href="#aboutus" className="text-decoration-none">
+              <a href="#about-us" className="text-decoration-none">
                 About
               </a>
             </li>
@@ -47,7 +47,7 @@ window.addEventListener('scroll',changeBackground);
               </a>
             </li>
             <li className="list-group list-group-flush">
-              <a href="#team" className="text-decoration-none">
+              <a href="#Team" className="text-decoration-none">
                 Team
               </a>
             </li>

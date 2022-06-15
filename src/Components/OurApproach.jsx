@@ -8,7 +8,7 @@ function OurApproach(){
     return(
         <>  
         
-           <div className="our-approach-main">
+           <div className="our-approach-main" id="service">
             <div className="">
                <div className="">
               <div className="our-approach-main-wrapper">  

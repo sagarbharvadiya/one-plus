@@ -193,6 +193,19 @@ b {
   max-width: 560px;
   font-size: 20px;
 }
+/* test  section*/
+.test-example{
+  background: url(../images/7.png) no-repeat 0 0;  
+  background-size:cover;
+  background-position: 100%;
+  background-attachment: fixed;
+}
+.test-example-content p{
+  color:black !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 
 /* our approach section  */
 
@@ -410,6 +423,7 @@ color: #6f6f6f;}
   background-size: cover;
   background-attachment: fixed;
   background-position: inherit;
+  min-height: 650px;
 }
 
 .team-img {
@@ -476,6 +490,7 @@ h2 {
 
 } */
 
+
 .our-team-section .thumbnail .fa-linkedin-in {
   background: #d03434;
   border-radius: 10px;
@@ -498,7 +513,7 @@ h2 {
   background: #d9d9d9;
   /* background: url(../images/2.png)no-repeat; */
   /* background-size: cover; */
-  color: hsla(0, 0%, 100%, .75);
+  /* color: hsla(0, 0%, 100%, .75); */
   /* padding: 100px 0 60px; */
   display: flex;
   align-items: center;
@@ -512,7 +527,7 @@ h2 {
 }
 
 
-#contact .section-title {
+/* #contact .section-title {
   text-align: left;
 }
 
@@ -569,7 +584,7 @@ h2 {
   background: #fff;
   border: 1px solid #000;
   color: #000;
-}
+} */
 
 .btn-custom {
   background-color: #d03434;
@@ -747,15 +762,17 @@ ul {
 }
 
 .accordion-title {
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
-  color: #666;
+  color: #000;
   padding: 0.5em 1.5em;
   border: solid 1px #ccc;
-  border-radius: 1.5em;
+  /* border-radius: 1.5em; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #fff;
+  border: none;
 }
 
 .accordion-content::after {
@@ -813,17 +830,28 @@ ul {
   content: "";
   position: absolute;
   top: 0%;
-  left: 0;
-
-
+  left: 0%;
   background-color: #ff0505c7;
-  background-color: #ffffffc7;
+  background-color: #ffff;
   width: 100%;
   height: 100%;
+  
 }
 
 .card-image:hover {
   left: 0%;
+}
+.caption
+  {
+  position: absolute;
+  top: 27%;
+  left: 20px;
+  opacity: 0;
+}
+.blog-box:hover .caption{
+  opacity: 1;
+  /* background-color: white; */
+  color: #d03434;
 }
 
 .blog-box h4{
@@ -839,21 +867,7 @@ ul {
   font-size: 10px;
 }
 
-.blog-box:hover .blog-title {
-  transform: translateY(-150px);
-  -webkit-transform: translateY(-150px);
-  -moz-transform: translateY(-150px);
-  -ms-transform: translateY(-150px);
-  -o-transform: translateY(-150px);
-}
 
-.card-folder {
-  opacity: 0;
-}
-
-.blog-box:hover .card-folder {
-  opacity: 1;
-}
 
 
 
@@ -981,11 +995,8 @@ ul {
     margin: auto;
   }
 
-  /* .caption {
-    margin-bottom: 36px;
-  } */
-
-  #contact .form-flex {
+  
+  contact .form-flex {
     display: flex;
     justify-content: space-between;
     /* align-items : center; */

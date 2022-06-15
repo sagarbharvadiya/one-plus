@@ -3,7 +3,7 @@ import  React from "react";
 function Contact(){
     return( 
             <>
-              <div className="Contact">
+              <div className="Contact" id="contact">
                 <div className=" container d-flex justify-content-between">
                     <div className=" location">
                     <i class="fas fa-map-marker"></i>
