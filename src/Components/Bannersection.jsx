@@ -3,10 +3,9 @@ import React from "react";
 function Bannersection(){
     return(
         <>
-        
-        
            <div className="Banner-section"> 
-            <div className="container">
+           <div class="bg-extra-dark-gray bg-overlay"></div>
+            <div className="container position-absolute">
                 <div className="Banner-wrapper">
                     <h2 className="d-flex ">Unique Marketing Solution For Asian Brands</h2>
                     <div className="main-banner-text">

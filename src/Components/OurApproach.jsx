@@ -14,6 +14,7 @@ function OurApproach(){
               <div className="our-approach-main-wrapper">  
                 <div className="our-approach"> 
                   <div className="our-approach-img">
+                     <span className="special-char-medium text-white absolute-middle-center position-absolute fas fa-quote-left"></span>
                      <p>Partner with us and work with a
                       Cross-border team that delivers cross-platform solutions.
                       </p>

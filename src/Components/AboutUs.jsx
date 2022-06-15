@@ -1,4 +1,5 @@
 import React from "react";
+import img3 from "../images/2.png";
 
 const Accordion = ({ title, children }) => {
     const [isOpen, setOpen] = React.useState(false);
@@ -18,12 +19,11 @@ const Accordion = ({ title, children }) => {
   };
   const Accodian = () => (
     <div className="wrapper About-section" id="about-us">
-      <div className="container">
+      <div className="container row">
       <div className="About-wrapper d-flex flex-column justify-content-end">
-    <h2 className="pb-4">A multi-cultural team that designs unique solutions for you</h2>
-    </div>
-    <div className="About-flex">
-
+       </div>
+    <div className="About-flex col-lg-6 d-flex justify-content-center flex-column align-items-center">
+       <h2 className="pb-4">A multi-cultural team that designs unique solutions for you</h2>
       <Accordion title="Global Experience">
       We are a team of consultants with an immersive experience 
       in global businesses. We work with you as partners; to deliver adaptive, effective
@@ -39,6 +39,10 @@ const Accordion = ({ title, children }) => {
       creating strong brand identities that resonate with audiences across 
       geographies, turning customers into loyalists.
       </Accordion>
+    </div>
+  
+    <div className="About-us-img col-lg-6">
+     <img src={img3} alt="" />
     </div>
    
       </div> 
