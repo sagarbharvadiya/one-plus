@@ -7,8 +7,8 @@ function CopyRight(){
         <>
         <div className="copy-right">
             <div className=" container d-flex justify-content-between align-items-center">
-              <div>
-                <img src="{logo}" alt=" ..." className="footer-logo" />
+              <div className="logo">
+                <img src={logo} alt=" ..." className="footer-logo" />
               </div>
               <div className="copy-right-text">
                <p> Copyright © 2022 OnePlus</p>

@@ -36,7 +36,7 @@ window.addEventListener('scroll',changeBackground);
                 Home
               </a>
             </li>
-            <li className="list-group list-group-flush">
+            <li className="list-group list-group-flush  ">
               <a href="#aboutus" className="text-decoration-none">
                 About
               </a>

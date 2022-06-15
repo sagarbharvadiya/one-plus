@@ -1,5 +1,5 @@
 import  React from "react";
-import img1 from "../images/3.png";
+// import img1 from "../images/3.png";
 
 
 
@@ -14,7 +14,7 @@ function FooterContact(){
                 </div> */}
                 <div className="form-flex Footer-section-forms">
                     <div className="Footer-section-img">
-                        <img src="{img1}" alt="...."  className="img-footer"/>
+                        {/* <img src={img1} alt="...."  className="img-footer"/> */}
                     </div>
                     <div className="sentMessage">
 

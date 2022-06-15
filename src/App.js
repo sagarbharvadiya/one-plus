@@ -2,7 +2,7 @@ import React from 'react';
 import './css/index.css';
 import Menu from './Components/Menu';
 import WhatMakeUs from './Components/WhatMakeUs';
-import AboutUs from './Components/AboutUs';
+import Accordion from './Components/AboutUs';
 import Bannersection from './Components/Bannersection';
 import OurApproach from './Components/OurApproach';
 // import OurService from './Components/OurService';
@@ -12,6 +12,8 @@ import Contact from './Components/Contact';
 import CopyRight from './Components/CopyRight';
 
 
+
+
 function App() {
   return (
     <>
@@ -19,13 +21,15 @@ function App() {
           <Menu/>
           <Bannersection/>
           <WhatMakeUs/>
-          <AboutUs/>
+          <Accordion/>
           <OurApproach/>
           {/* <OurService/> */}
           <OurTeam/>
           <FooterContact/> 
           <Contact/>
           <CopyRight/>
+        
+          
       </div>
     </>
   );

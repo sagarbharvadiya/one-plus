@@ -9,13 +9,15 @@ function OurApproach(){
         <>  
         
            <div className="our-approach-main">
-              <div className="our-approach-main-wrapper d-flex flex-column justify-content-start align-items-start">  
+            <div className="">
+               <div className="">
+              <div className="our-approach-main-wrapper">  
                 <div className="our-approach"> 
-                <div className="our-approach-img">
+                  <div className="our-approach-img">
                      <p>Partner with us and work with a
                       Cross-border team that delivers cross-platform solutions.
                       </p>
-                   <img src={img3} alt=".." className="approach-img" /> 
+                      <img src={img3} alt=".." className="approach-img" /> 
                    </div>  
                   <div className="our-approach-content">
                      <p>Partner with us and work with a
@@ -27,10 +29,10 @@ function OurApproach(){
                        <li>+ Branding Strategy + Digital Marketing Strategy + Performance Marketing Strategy</li>
                        <li>+ Brand Identity Design + Digital & Social Media Campaign + SEO & SEM Management</li>
                     </ul>
-                   </div>
-                   
-                   
+                   </div>   
                 </div>
+                </div>
+
                    <div className="our-approach-bottom">
                     <div className="our-approach-box">
                        <h1>01</h1>
@@ -48,11 +50,9 @@ function OurApproach(){
                       <p>We partner with your team to co-create solutions and deliver them in-house or through our network of creative talent. </p>
                     </div>
                    </div>
-              
-               
-              </div>
-           
-           </div>
+               </div>
+             </div>
+        </div>
         </>  
     )
 };
