@@ -1,5 +1,5 @@
 import React from "react";
-import img3 from "../images/2.png";
+import img3 from "../images/image4.png";
 
 const Accordion = ({ Number, title, children }) => {
     const [isOpen, setOpen] = React.useState(false);
@@ -24,7 +24,7 @@ const Accordion = ({ Number, title, children }) => {
       <div className="About-wrapper d-flex flex-column justify-content-end">
        </div>
     <div className="About-flex col-lg-6 d-flex justify-content-center flex-column align-items-center">
-       <h2 className="pb-4">A multi-cultural team that designs <b> unique solutions for you</b></h2>
+       {/* <h2 className="pb-4">A multi-cultural team that designs <b> unique solutions for you</b></h2> */}
       <Accordion  title="Global Experience">
       We are a team of consultants with an immersive experience in global businesses. We work with you as partners; to deliver adaptive, effective and result-driven solutions.
       </Accordion>
