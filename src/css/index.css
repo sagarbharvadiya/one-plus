@@ -50,7 +50,7 @@ code {
   font-weight: 800;
   margin: 9px 20px 0;
   /* padding       : 8px 2px; */
-  text-transform: uppercase;
+  text-transform: none;
   font-family: Montserrat !important;
 }
 
@@ -105,9 +105,9 @@ code {
   margin-top: 100px;
   display: flex !important;
   align-items: center;
-  /* color: #fff; */
-  color: #d03434;
-  text-transform: capitalize;
+  color: #fff;
+  /* color: #d03434; */
+  text-transform: none;
   text-align: left;
   max-width: 488px;
   font-family: 'League Spartan', sans-serif !important;
@@ -165,6 +165,7 @@ code {
 
 b {
   color: #d03434;
+  text-transform: none;
 }
 .what-Make-US-whapper-col-2{
   font-size: 28px !important;
@@ -212,12 +213,12 @@ b {
   background-attachment: fixed;
 }
 .test-example-content h2{
-  color:black !important;
+  color:#fff!important;
   font-size: 28px;
   font-weight: 600;
   max-width: 500px;
   margin: auto;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 
@@ -267,8 +268,8 @@ b {
   background: #000000bf;
   color: #d6d5d5;
   /* padding: 30px; */
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   flex-direction: column;
   width: 621px;
   height: 516px;
@@ -283,14 +284,15 @@ b {
 }
 
 .our-approach-content h3 {
-  margin: 16px 0px;
+  margin: 16px 45px;
   max-width: 500px;
 
 }
 
-/* .our-approach-content ul {
-  margin: 10px 20px;
-} */
+.our-approach-content ul {
+  margin: 10px 41px;
+  font-size: 17px;
+}
 .our-approach-content ul {
   /* margin: 10px 20px; */
   font-size: 17px;
@@ -603,6 +605,7 @@ h2 {
   border: 2px solid #fff;
   color: #fff;
   margin: 30px 0;
+  text-transform: none;
 }
 
 .Footer .btn-custom:hover {
@@ -769,7 +772,7 @@ ul {
 /*  */
 .accordion-wrapper {
   margin-top: 0.5em;
-  position: relative;
+  /* position: relative; */
   /* margin: auto; */
   max-width: 397px;
 }
@@ -1147,3 +1150,53 @@ ul {
 }
 
 
+/* .wrapper {
+  width: 600px;
+  margin: 0 auto;
+} */
+.accordion-wrapper {
+    margin-top: 0.5em;
+}
+.accordion-item {
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+  height: auto;
+  max-height: 9999px;
+}
+.accordion-item.collapsed {
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+.accordion-title {
+  font-weight: 500;
+  cursor: pointer;
+  color: #666;
+  
+  padding: 10px 31px;
+  margin: 10px;
+  border: solid 1px #ccc;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  font-size: 20px;
+  border: none;
+  text-transform: none !important;
+}
+.accordion-content {
+  padding: 1em 1.5em;
+}
+.accordion-title.open::after {
+  content: "";
+  border-top: 0;
+  border-bottom: 5px solid;
+}
+.accordion-title::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid currentColor;
+}

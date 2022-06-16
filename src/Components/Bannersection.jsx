@@ -7,7 +7,7 @@ function Bannersection() {
                 <div class="bg-extra-dark-gray bg-overlay"></div>
                 <div className="container position-absolute">
                     <div className="Banner-wrapper">
-                        <h2 className="d-flex ">Unique Marketing Solutions for Asian Brands</h2>
+                        <h2 className="d-flex ">Unique marketing solutions for asian brands</h2>
                         <div className="main-banner-text">
                             <h1 className="d-flex">EMPATHISE
                                 CONNECT
