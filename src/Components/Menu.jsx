@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import{ link } from "react-router-dom"
-import logo from "../images/FullLogo_Transparent1.png";
+import logo from "../images/logo.png";
 
 function Menu() {
   const [isMobile, setIsMobile] = useState(false);
